@@ -37,6 +37,7 @@ body {
 .introBlock h3 {
   color: #5BC3EB;
   font-family: "Quicksand";
+  font-weight: 700;
   padding: 5px 0;
 }
 .introBlock h4 a,
@@ -56,6 +57,7 @@ body {
 .projectsBlock h3 {
   color: #5BC3EB;
   font-family: "Quicksand";
+  font-weight: 700;
   padding: 15px 0;
 }
 .projectsBlock img {
@@ -72,9 +74,17 @@ body {
   color: #FF6B6C;
   text-decoration: none;
 }
+.projectsBlock a {
+  color: #FF6B6C;
+}
+.projectsBlock a:hover {
+  text-decoration: none;
+  color: #5BC3EB;
+}
 .aboutBlock h3 {
   color: #5BC3EB;
   font-family: "Quicksand";
+  font-weight: 700;
   padding: 15px 0;
 }
 .aboutBlock img {
@@ -97,6 +107,7 @@ body {
 .ludumBlock h3 {
   color: #5BC3EB;
   font-family: "Quicksand";
+  font-weight: 700;
   padding: 15px 0;
 }
 .ludumBlock img {
@@ -113,9 +124,17 @@ body {
   color: #FF6B6C;
   text-decoration: none;
 }
+.ludumBlock a {
+  color: #FF6B6C;
+}
+.ludumBlock a:hover {
+  text-decoration: none;
+  color: #5BC3EB;
+}
 .contactBlock h3 {
   color: #5BC3EB;
   font-family: "Quicksand";
+  font-weight: 700;
   padding: 15px 0;
   margin-right: 10px;
 }
@@ -156,6 +175,20 @@ body {
 .contactBlock .links span {
   color: #36382E;
   vertical-align: top;
+}
+.contactBlock .links a {
+  color: #FF6B6C;
+}
+.contactBlock .links a:hover {
+  text-decoration: none;
+  color: #5BC3EB;
+}
+.footerBlock a {
+  color: #FF6B6C;
+}
+.footerBlock a:hover {
+  text-decoration: none;
+  color: #5BC3EB;
 }
 /** Components **/
 a:hover {
